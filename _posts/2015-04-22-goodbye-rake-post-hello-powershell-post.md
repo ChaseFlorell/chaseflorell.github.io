@@ -2,7 +2,7 @@
 layout: post
 title: Goodbye [rake post], Hello PowerShell [post]
 date: 2015-04-22 14:28:16
-categories: [devops]
+categories: [devops, powershell]
 tags: [personal-blog, devops, jekyll]
 ---
 
