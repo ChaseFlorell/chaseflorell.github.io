@@ -108,6 +108,6 @@ All it's doing id dot-invoking the jekyll.ps1 script and exporting the modules (
       }
     }
 
-Simply drop this script into your `Modules\Personal` directory, and reload your shell. Now you can easily add a new post by entering the following command (with the optional `$draft` parameter).
+Simply drop this script into your `Modules\Personal` directory, invoke it from your `personal.psm1`, and reload your shell. Now you can easily add a new post by entering the following command (with the optional `$draft` parameter).
 
     > post "name of my post" [-draft]
