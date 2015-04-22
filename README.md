@@ -107,6 +107,11 @@ Another file to know about is the `footer.html` as it has the copyright notice a
 
 The `404` file is located in the root folder and it contains the exactly same structure as a page.
 
+Plugins
+----------------
+
+ - [Jekyll Tweet Tag](https://github.com/scottwb/jekyll-tweet-tag)
+
 License
 ----------------
 The MIT License (MIT)
