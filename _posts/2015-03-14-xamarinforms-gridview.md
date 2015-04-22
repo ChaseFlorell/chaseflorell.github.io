@@ -22,4 +22,4 @@ here are a few examples of my last two apps using a gridview.
 
 ![Imgur](https://i.imgur.com/Qd8alh7.png) 
 ![Imgur](https://i.imgur.com/tCzBPc0.png) 
-![Imgur](https://i.imgur.com/JFxguYL.png)
+![Imgur](https://i.imgur.com/JFxguYL.png){:height="480px" width="300px"}
