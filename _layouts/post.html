@@ -6,9 +6,7 @@ layout: default
 
     <article class="module color-3">
         <h1>{{ page.title }}{{ .shortUrl }}</h1>
-        <p class="meta">
-            <time class="timeago postlist-meta" datetime="{{ page.date | date: "%Y-%m-%d" }}"><i class="fa fa-calendar"></i>{{ page.date | date: "%B %-d, %Y" }}</time>
-        </p>
+        {% include post/meta.html %}
         <hr>
         {{ content }}
         <p class="top"><small><a href="#top">[top]</a></small></p>
