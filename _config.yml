@@ -3,8 +3,11 @@ name: Chase Florell
 description: ".NET Blogger"
 url: https://chaseflorell.github.io
 
-markdown: redcarpet
+markdown: kramdown
 highlighter: pygments
+
+kramdown:
+  input: GFM
 
 paginate: 5
 permalink: /:title
