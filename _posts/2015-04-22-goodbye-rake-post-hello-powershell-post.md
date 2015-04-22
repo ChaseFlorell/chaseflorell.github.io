@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Goodbye `rake post`, Hello PowerShell `post`
+title: Goodbye [rake post], Hello PowerShell [post]
 date: 2015-04-22 14:28:16
 categories: [devops]
 tags: [personal-blog, devops, jekyll]
