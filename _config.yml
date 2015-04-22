@@ -1,0 +1,24 @@
+# General
+name: Chase Florell
+description: ".NET Blogger."
+url: https://chaseflorell.github.io
+
+markdown: redcarpet
+highlighter: pygments
+
+paginate: 5
+permalink: /:title
+
+#github
+github_repo_url: https://github.com/ChaseFlorell/chaseflorell.github.io/
+
+# Social share and comments.
+disqus-id: ChaseFlorell
+twitter: ChaseFlorell
+##github: ChaseFlorell
+google: +ChaseFlorell
+facebook: ChaseFlorell
+
+# RSS feed
+rss-feed-limit: 10
+rss-show-full: "no"
