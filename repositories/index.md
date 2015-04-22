@@ -11,6 +11,6 @@ This is a list of my public repositories
 
 <ul>
   {% for repository in site.github.public_repositories %}
-    <li><a href="https://github.com/{{ repository.full_name }}">{{ repository.full_name }}</a></li>
+    <li><a href="https://github.com/{{ repository.full_name }}">{{ repository.full_name }}</a> - {{repository.description}}</li>
   {% endfor %}
 </ul>

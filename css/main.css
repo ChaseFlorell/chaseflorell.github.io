@@ -1,4 +1,15 @@
 /* ------------------------------------------------------------------------
+-   We needs the aswesome font known as fontawesome. -
+-------------------------------------------------------------------------*/
+@font-face {
+    font-family: 'FontAwesome';
+    src: url("/font/fontawesome-webfont.eot");
+    src: url("/font/fontawesome-webfont.eot?#iefix") format("embedded-opentype"),url("/font/fontawesome-webfont.woff") format("woff"),url("/font/fontawesome-webfont.ttf") format("truetype"),url("/font/fontawesome-webfont.svgz#FontAwesomeRegular") format("svg"),url("/font/fontawesome-webfont.svg#FontAwesomeRegular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* ------------------------------------------------------------------------
 -   Make browsers more friendly with padding and margin. -
 -------------------------------------------------------------------------*/
 
@@ -318,3 +329,50 @@ table {
     .social { text-align: center; }
     .social li { display: block; width: 100%; }
 }
+
+/* ------------------------------------------------------------------------
+-  All things meta. -
+-------------------------------------------------------------------------*/
+.meta {
+    margin-left: 4px;
+    color: #999;
+}
+.meta a {
+    color: #999;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+.meta a:hover { color: #666 }
+.meta .date,
+.meta .tags,
+.meta .comments,
+.meta .edit { padding-right: 10px }
+.meta .date:before,
+.meta .tags:before,
+.meta .comments:before,
+.meta .edit:before {
+    color: #ccc;
+    font: 1.3em FontAwesome;
+    left: 0;
+    margin-right: 5px;
+}
+@media screen and (max-width: 800px) { 
+    .meta .date,
+    .meta .tags,
+    .meta .comments,
+    .meta .edit {
+        display: -moz-inline-stack;
+        display: inline-block;
+        vertical-align: middle;
+        *vertical-align: auto;
+        zoom: 1;
+        *display: inline;
+        margin-right: 30px;
+    }
+}
+.meta .date:before { content: "\f073" }
+.meta .tags:before { content: "\f02c" }
+.meta .comments:before { content: "\f075" }
+.meta .edit:before { content: "\f044" }
