@@ -2,8 +2,8 @@
 layout: post
 title: Goodbye [rake post], Hello PowerShell [post]
 date: 2015-04-22 14:28:16
-categories: [devops, powershell]
-tags: [personal-blog, devops, jekyll]
+categories: [personal-blog]
+tags: [personal-blog, jekyll, powershell]
 ---
 
 Since I just got all setup with my [jekyll](http://jekyllrb.com/) on my [Github Pages](https://pages.github.com) personal blog, I was trying to figure out a quick way to generate new blog entries from the command line. I'm a huge fan of all things Microsoft (don't shot me), and therefore have made a personal decision to not install [ruby](https://www.ruby-lang.org/en/) on my personal dev machine. So, in the template for jekyll that I found, there's a nice little `rakefile` that has made it super simple to create new entries by simply calling `rake post title="Hello World"`... but alas, I don't have rake available to me (and nor do I want it).

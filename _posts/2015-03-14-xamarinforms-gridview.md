@@ -2,8 +2,8 @@
 layout: post
 title: Xamarin.Forms GridView
 date: 2015-03-14 10:53:22
-categories: [xamarin, xamarin-forms]
-tags: [xamarin, xamarin-forms, gridview]
+categories: [xamarin]
+tags: [xamarin, xamarin-forms, gridview, C#]
 ---
 
 So I've decided to take a stab at blogging. Not sure how well I'll do, but I get asked often enough for help that I figure I ought to share the knowledge as best I can.
