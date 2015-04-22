@@ -8,7 +8,8 @@ sharing: false
 ---
 
 ##Me
-![]({{site.github.owner_gravatar_url }} =75x)
+
+![]({{site.github.owner_gravatar_url }}){:height="75px" width="75px"}
 
 Chase is a software developer in Calgary Alberta. He's currently working at <a href="http://transcanada.com">TransCanada Pipelines</a> doing DevOps for a number of large projects.
 
