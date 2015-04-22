@@ -72,6 +72,11 @@ All it's doing id dot-invoking the jekyll.ps1 script and exporting the modules (
       "tags: " >> $path
       "---" >> $path
 
+      # Force UTF-8 Encoding
+      $MyFile = Get-Content $path
+      $Utf8NoBomEncoding = New-Object System.Text.UTF8Encoding($False)
+      [System.IO.File]::WriteAllLines($path, $MyFile, $Utf8NoBomEncoding)
+
       pop-location
     }
     Set-Alias post Add-Post
