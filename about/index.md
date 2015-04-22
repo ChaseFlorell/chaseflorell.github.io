@@ -7,7 +7,7 @@ categories: [personal-blog]
 sharing: false
 ---
 
-##Me##
+## Me ##
 
 ![]({{site.github.owner_gravatar_url }}){:height="150px" width="150px"}
 
