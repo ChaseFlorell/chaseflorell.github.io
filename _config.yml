@@ -10,7 +10,7 @@ kramdown:
   input: GFM
 
 paginate: 5
-permalink: /:title
+permalink: /:categories/:year/:month/:day/:title/
 
 #github
 github_repo_url: https://github.com/ChaseFlorell/chaseflorell.github.io/
