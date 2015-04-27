@@ -15,7 +15,7 @@ So with this in mind, I began searching around to see if anyone has already crea
 
 With those two in mind, there was one script that I found that did a pretty good job overall. The [example I found](http://poshcode.org/587) was located over at poshcode. It's pretty rough around the edges, but gave me a little kickstart to get what I needed.
 
-I heavily refactored almost all of it, and split it into two files, a template, and the runner. Essentially, all you need to do is kick off the two lines in invoke.ps1.
+I heavily refactored almost all of it, and split it into two files, a template, and the runner. Essentially, all you need to do is kick off the two lines in `invoke.ps1`.
 
 Here's the script's you'll need.
 
