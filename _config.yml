@@ -25,3 +25,7 @@ facebook: ChaseFlorell
 # RSS feed
 rss-feed-limit: 10
 rss-show-full: "no"
+
+# Analytics
+google-analytics:
+  tracking_id: UA-62354301-1
