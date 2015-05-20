@@ -13,3 +13,5 @@ If you're using `[CmdletBinding()]` in your functions, you've enabled additional
 In the example below, I simply demonstrate how switchs work when passing them to sub functions. 
 
 {% gist 4ced2f4638c626fd32e6 %}
+
+As you can see, the `$test` switch is passed down by calling `-test:$test`, and the rest of the switches are magically passed for you. That's all there is to it.
