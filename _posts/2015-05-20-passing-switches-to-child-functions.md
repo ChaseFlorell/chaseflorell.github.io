@@ -14,4 +14,4 @@ In the example below, I simply demonstrate how switchs work when passing them to
 
 {% gist 4ced2f4638c626fd32e6 %}
 
-As you can see, the `$test` switch is passed down by calling `-test:$test`, and the rest of the switches are magically passed for you. That's all there is to it.
+As you can see, the `$Custom` switch is passed down by calling `-Custom:$Custom`, and the rest of the switches are magically passed for you. That's all there is to it.
