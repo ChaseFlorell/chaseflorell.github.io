@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: my fun post
 date: 2015-05-24 21:49:08
