@@ -376,3 +376,7 @@ table {
 .meta .tags:before { content: "\f02c" }
 .meta .comments:before { content: "\f075" }
 .meta .edit:before { content: "\f044" }
+
+.pull-right{
+     text-align: right;
+}
