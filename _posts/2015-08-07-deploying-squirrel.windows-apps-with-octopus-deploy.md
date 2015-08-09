@@ -79,11 +79,11 @@ At this point, your build and deploy scripts are ready to go. Now you need to pr
 
 3) Add a couple of additional config variables to your app.config
  
- {% gist c84f3e9e2dd7c1c4ba87 app.Config %}
+ {% gist c84f3e9e2dd7c1c4ba87 app.config %}
  
 4) Create transform files for your environment (app.[environmentname].config), and include the environment specific details.
 
- {% gist c84f3e9e2dd7c1c4ba87 app.local.Config %}
+ {% gist c84f3e9e2dd7c1c4ba87 app.local.config %}
 
 5) At the appropriate time in your application, call the async method.
 
