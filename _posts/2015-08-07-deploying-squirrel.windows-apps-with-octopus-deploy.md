@@ -89,8 +89,10 @@ At this point, your build and deploy scripts are ready to go. Now you need to pr
 
  - be sure to do it at a point where you're not interrupting your users experience.
 
+```
     await SquirrelUpdater.Update();
-	
+```
+
 At this point, you're finally ready to deploy. Just get your nupkg artifact into octopus deploy, and deploy it to your specific environment.
 	
 PS: If you'd rather just look at a demo solution, I'll be posting one shortly that encompases everything detailed above. I'll update the blog post when it's ready.
