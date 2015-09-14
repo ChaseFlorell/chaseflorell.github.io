@@ -27,12 +27,12 @@ If you'd like to look at (or improve) the repository, it can be found on [github
 
 *If you've got bootstrap chops, I'd be happy to get a little help, it's one area I'm not great it, and I know it could use a little improvement.*
 
-**EDIT:**  
-Edited to remove the old gist and instead point to the psDoc repository.
-
 -----
 
 **Screenshots**
 ![](https://i.imgur.com/vVIHpP8.png)
 ![](https://i.imgur.com/H99LOoy.png)
 ![](https://i.imgur.com/ZJO7Qhj.png)
+
+**EDIT [09.14.2015]:**  
+Edited to remove the old gist and instead point to the psDoc repository.
