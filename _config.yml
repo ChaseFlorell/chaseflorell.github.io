@@ -4,7 +4,7 @@ description: ".NET Blogger"
 url: https://chaseflorell.github.io
 
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 
 kramdown:
   input: GFM
