@@ -23,7 +23,7 @@ From here, all of our ViewModels will be implemented as follows.
 Now that our ViewModel is wired up, we need to build out our View. The problem that exists with XamarinForms as it stands right now is that there is not out-of-the-box error messaging built into any of the controls. To enable this, we need to first build a custom control to handle it. Here's a simple `ExtendedEntry` that will get you started.
 
 {% gist 37ec1062b9bd367c67ad56f8d93fc30a ExtendedEntry.xaml.cs %}
-{% gist 37ec1062b9bd367c67ad56f8d93fc30a ExtendedEntry.cs %}
+{% gist 37ec1062b9bd367c67ad56f8d93fc30a ExtendedEntry.xaml %}
 
 In here we're leveraging a `ControlTemplate` to watch our bindings and we have a special extension method to extract the binding `Path`
 
