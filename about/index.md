@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "About Chase Florell"
-date: 2018-03-31 -0700
+date: 2020-07-10 -0700
 comments: false
 categories: [personal-blog]
 sharing: false
